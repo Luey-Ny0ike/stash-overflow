@@ -1,0 +1,6 @@
+{{yield}}
+<li>
+  {{question.author}} {{question.date}}- {{question.question}}
+  {{update-question question= question update="update"}}
+  <button {{action 'delete' question}}>Delete Question</button>
+</li>

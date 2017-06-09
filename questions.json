@@ -1,0 +1,33 @@
+{
+  "questions": [{
+      "author": "Spiderman",
+      "date": "12/8/17",
+      "question":"Blah blah blah Samuel.L.Jackson asked."
+    },
+    {
+      "author": "DeadPool",
+      "date": "23/4/25",
+      "question": "Blah blah blah Samuel.L.Jackson asked."
+    },
+    {
+      "author": "Antman",
+      "date": "34/5/57",
+      "question": "Blah blah blah Samuel.L.Jackson asked."
+    }
+  ],
+  "answers": [{
+      "smartGuy": "Lewis",
+      "date": "12/3/24",
+      "answer": "How do you answer Samuel.L.Jackson?"
+    }, {
+      "smartGuy": "Lewis",
+      "date": "12/3/24",
+      "answer": "How do you answer Samuel.L.Jackson?"
+    },
+    {
+      "smartGuy": "Lewis",
+      "date": "12/3/24",
+      "answer": "How do you answer Samuel.L.Jackson?"
+    }
+  ]
+}

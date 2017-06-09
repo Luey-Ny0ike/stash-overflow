@@ -8,6 +8,12 @@
       All in all have fun! </h5>
 
       <h1>Top Questions</h1>
-      
+      <ul>
+        {{#each model as  |question|}}
+          {{question-tile question=question destroyQuestion="destroyQuestion"}}
+        {{/each}}
+      </ul>
+
+
 {{#link-to 'about' }}About{{/link-to}}
 {{#link-to 'contact'}}Contact us{{/link-to}}

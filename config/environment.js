@@ -16,6 +16,12 @@ module.exports = function(environment) {
         Date: false
       }
     },
+    firebase: {
+      apiKey: "AIzaSyC7gFFEVZZbxgLjz3SLoGdhrzlHs8LcArY",
+      authDomain: "AIzaSyC7gFFEVZZbxgLjz3SLoGdhrzlHs8LcArY",
+      databaseURL: "https://stash-overflow.firebaseio.com",
+      storageBucket: "stash-overflow.appspot.com",
+    },
 
     APP: {
       // Here you can pass flags/options to your application instance

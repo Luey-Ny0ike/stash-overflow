@@ -18,9 +18,11 @@ module.exports = function(environment) {
     },
     firebase: {
       apiKey: "AIzaSyC7gFFEVZZbxgLjz3SLoGdhrzlHs8LcArY",
-      authDomain: "AIzaSyC7gFFEVZZbxgLjz3SLoGdhrzlHs8LcArY",
-      databaseURL: "https://stash-overflow.firebaseio.com",
-      storageBucket: "stash-overflow.appspot.com",
+     authDomain: "stash-overflow.firebaseapp.com",
+     databaseURL: "https://stash-overflow.firebaseio.com",
+     projectId: "stash-overflow",
+     storageBucket: "stash-overflow.appspot.com",
+     messagingSenderId: "570601228938"
     },
 
     APP: {

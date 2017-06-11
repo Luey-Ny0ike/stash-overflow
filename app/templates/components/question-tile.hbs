@@ -1,6 +1,4 @@
 {{yield}}
 <li>
-  {{question.author}} {{question.date}}- {{question.question}}
-
-  
+{{#link-to 'question' question.id}}{{question.author}} {{question.date}} {{/link-to}}
 </li>

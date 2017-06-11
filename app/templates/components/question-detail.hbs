@@ -1,3 +1,6 @@
 Here is {{question.author}}'s querry, {{question.question}}
 Please help out as much as you can
+{{#each question as |question|}}
+{{question-tile question=question destroyQuestion="destroyQuestion"}}
+{{/each}}
 <button {{action 'delete' question}}>Delete Question</button>

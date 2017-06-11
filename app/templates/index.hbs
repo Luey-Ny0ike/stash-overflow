@@ -9,11 +9,19 @@
 
       <h1>Top Questions</h1>
       <ul>
-        {{#each model as  |question|}}
+        {{#each model.questions as  |question|}}
           {{question-tile question=question}}
         {{/each}}
       </ul>
 
         {{new-question saveQuestion2="saveQuestion3"}}
-{{#link-to 'about' }}About{{/link-to}}
-{{#link-to 'contact'}}Contact us{{/link-to}}
+
+        <h2>All answers</h2>
+        <ul>
+          {{#each model.answers as |answer|}}
+          <li>{{review.smartGuy}} - {{review.date}}
+            <hr>
+            {{review.answer}}</li>
+        </ul>
+{{#link-to 'about' }}About {{/link-to}}
+{{#link-to 'contact' }}Contact us {{/link-to}}

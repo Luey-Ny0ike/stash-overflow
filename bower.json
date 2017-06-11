@@ -2,5 +2,19 @@
   "name": "stash-over-flow",
   "dependencies": {
     "firebase": "^4.1.2"
-  }
+  },
+  "authors": [
+    "lewis nyoike <nyoikelewis@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }

@@ -1,0 +1,26 @@
+
+  <h2>Add a new answer</h2>
+  <div class="answer">
+    <form>
+      <div class="row">
+        <div class="col-md-6">
+      <div class="form-group">
+        <label for="smartGuy">Smart Guy</label> {{input value=smartGuy id="smartGuy"}}
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="form-group">
+        <label for="date">Date</label> {{input value=date id="date"}}
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="form-group">
+        <label for="answer">Answer</label> {{input value=answer id="answer"}}
+      </div>
+    </div>
+  </div>
+      <button {{action 'saveAnswer' answer}}>Save</button>
+    </form>
+  </div>

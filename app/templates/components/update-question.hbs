@@ -1,5 +1,5 @@
 {{#if updateQuestionForm}}
-  <h4>Update {{question.author}}{{question.date}}-{{question.content}}</h4>
+  <h4>Update {{question.author}}{{question.date}}-{{question.question}}</h4>
   <div>
     <form>
       <div class="col-md-6">
@@ -14,8 +14,8 @@
       </div>
     </div>
       <div class="form-group">
-        <label for="content">Content</label>
-        {{input value=content id="content" placeholder=question.content}}
+        <label for="question">Question</label>
+        {{input value=question id="question" placeholder=question.question}}
       </div>
 
       <button {{action 'update' question}}>Save</button>

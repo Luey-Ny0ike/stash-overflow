@@ -6,7 +6,8 @@ export default Ember.Component.extend({
       var params={
         smartGuy: this.get('smartGuy'),
         date: this.get('date'),
-        answer: this.get('answer')
+        answer: this.get('answer'),
+        question: this.get('question')
       };
       this.sendAction('saveAnswer', params);
     }

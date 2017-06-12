@@ -1,6 +1,13 @@
-Here is {{question.author}}'s querry, {{question.question}}
-Please help out as much as you can
-{{#each question as |question|}}
+Here is {{question.author}}'s querry, {{question.question}}<br>
+{{#each model.question as |question|}}
 {{question-tile question=question destroyQuestion="destroyQuestion"}}
 {{/each}}
+
+<hr>
+Please help out as much as you can<br>
 <button {{action 'delete' question}}>Delete Question</button>
+<ul>
+  {{#each question.answers as |answer|}}
+  {{answer-tile answer=answer destroyAnswer="destroyAnswer"}}
+    {{/each}}
+</ul>

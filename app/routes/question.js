@@ -28,13 +28,13 @@ export default Ember.Route.extend({
        return answer.destroyRecord();
      });
      Ember.RSVP.all(answer_deletions).then(function() {
-       return question.destroyRecord();
+       return Question.destroyRecord();
      });
      this.transitionTo('index');
    },
    destroyAnswer(answer){
      answer.destroyRecord();
-     
+
    }
   }
 });

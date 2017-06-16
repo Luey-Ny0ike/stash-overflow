@@ -1,8 +1,10 @@
+<div class="container">
 <h1>{{question.title}}</h1> <br>{{question.image}}<br>{{question.question}}
 <br>By {{question.author}}-{{question.date}}
 {{#each model.question as |question|}}
 {{question-tile question=question destroyQuestion="destroyQuestion"}}
 {{/each}}
+</div>
 
 <hr>
 Please help out as much as you can<br>

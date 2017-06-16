@@ -10,7 +10,7 @@
   <h1>Top Questions</h1>
   <ul>
     {{#each model.questions as |question|}}
-      {{question-tile question=question}}
+      {{no-answer question}} {{question-tile question=question}}
     {{/each}}
   </ul>
 

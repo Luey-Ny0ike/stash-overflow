@@ -21,6 +21,9 @@
       </div>
     </div>
   </div>
+  <p>Upvotes: {{answer.vote}}</p>
+          <button class="uvote" {{action 'upvote' answer}}></button>
+          <button class="dvote" {{action 'downvote' answer}}></button>
       <button {{action 'saveAnswer' answer}}>Save</button>
     </form>
   </div>

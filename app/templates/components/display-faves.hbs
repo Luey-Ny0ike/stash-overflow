@@ -1,1 +1,3 @@
-{{yield}}
+{{#each favouriteQuestions.items as |item|}}
+  {{item.title}} -- {{item.image}} - {{item.question}} -- {{item.author}}
+  {{/each}}

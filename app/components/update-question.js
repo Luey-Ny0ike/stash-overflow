@@ -10,6 +10,8 @@ export default Ember.Component.extend({
       var params = {
         author: this.get('author'),
         date: this.get('date'),
+        title: this.get('title'),
+        image: this.get('image'),
         question: this.get('question'),
       };
       this.set('updateQuestionForm', false);

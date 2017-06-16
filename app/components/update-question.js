@@ -9,7 +9,7 @@ export default Ember.Component.extend({
     update(question){
       var params = {
         author: this.get('author'),
-        date: this.get('date'),
+        datee: this.get('datee'),
         title: this.get('title'),
         image: this.get('image'),
         question: this.get('question'),

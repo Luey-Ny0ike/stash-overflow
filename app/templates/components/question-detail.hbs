@@ -1,4 +1,4 @@
-<h1>{{quetion.title}}</h1> <br>{{question.image}}<br>{{question.question}}
+<h1>{{question.title}}</h1> <br>{{question.image}}<br>{{question.question}}
 <br>By {{question.author}}-{{question.date}}
 {{#each model.question as |question|}}
 {{question-tile question=question destroyQuestion="destroyQuestion"}}

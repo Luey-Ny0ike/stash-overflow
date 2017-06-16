@@ -1,4 +1,5 @@
-Here is {{question.author}}'s querry, {{question.question}}<br>
+<h1>{{quetion.title}}</h1> <br>{{question.image}}<br>{{question.question}}
+<br>By {{question.author}}-{{question.date}}
 {{#each model.question as |question|}}
 {{question-tile question=question destroyQuestion="destroyQuestion"}}
 {{/each}}

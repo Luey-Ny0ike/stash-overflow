@@ -1,3 +1,6 @@
-{{#each model.questions as |question|}}
+{{#each model as |question|}}
   {{question-tile question=question}}
   {{/each}}
+  <ul>
+{{display-faves question=question}}
+</ul>
